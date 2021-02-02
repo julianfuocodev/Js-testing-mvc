@@ -1,0 +1,7 @@
+[{"id":"1", "nombre":"Valmont", "precio":450, "categoria":"Tinto", "Color":["Rojo"], "Talla":["10 g.a"], "destacado": true},
+{"id":"2", "nombre":"Cosecha Tardia", "precio":600, "categoria":"Blanco", "Color":["Pastel"], "Talla":["10 g.a"], "destacado": true},
+{"id":"3", "nombre":"Martinez", "precio":950, "categoria":"Blanco", "Color":["Blanco"], "Talla":["10 g.a"], "destacado": true},
+{"id":"4", "nombre":"Ruttini", "precio":1250, "categoria":"Cabernet", "Color":["Negro"], "Talla":["10 g.a"], "destacado": true},
+{"id":"5", "nombre":"Viejo", "precio":350, "categoria":"Blanco", "Color":["Blanco"], "Talla":["10 g.a"], "destacado": true},
+{"id":"6", "nombre":"Toro Viejo", "precio":150, "categoria":"Tinto", "Color":["Negro"], "Talla":["10 g.a"], "destacado": true}]
+

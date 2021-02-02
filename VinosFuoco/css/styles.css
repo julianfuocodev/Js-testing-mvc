@@ -1,0 +1,225 @@
+.categoria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: black;
+  font-family: "Caveat", cursive;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #252525;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.categoria label {
+  font-size: 25px;
+}
+
+.barra {
+  height: 60px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.barra li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.barra li p {
+  font-family: "Caveat", cursive;
+  text-align: center;
+  font-size: 30px;
+}
+
+#productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#productos .vista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid #f0f0f0 1px;
+  background-color: black;
+  border-radius: 5px;
+  width: 250px;
+  height: 600px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#productos .vista h2 {
+  font-size: 35px;
+  color:white;
+  font-family: "Caveat", cursive;
+}
+
+#productos .vista p {
+  /*font-weight: bold;*/
+  color: white;
+  font-family: "Caveat", cursive;
+  display: inline-block;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 25px;
+}
+
+#productos .vista select {
+  margin-bottom: 10px;
+}
+
+#productos .vista .containerColorTalla, #productos .vista .containerColor, #productos .vista .containerTalla, #productos .vista .containerCntd {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#productos .vista .containerColorTalla p, #productos .vista .containerColor p, #productos .vista .containerTalla p, #productos .vista .containerCntd p {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.responsiva {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.elementoCarrito {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.elementoCarrito p {
+  padding: 5px;
+}
+
+
+.comprar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.comprar h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Caveat", cursive;
+  font-size: 50px;
+}
+
+.comprar .facturaDatos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.comprar .facturaDatos p {
+  font-size: 25px;
+}
+
+.comprar .facturaDatos #factura {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: black;
+  font-family: "Caveat", cursive;
+  border: 1px solid #252525;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.datosCliente {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: lightgray;
+  border: 1px solid #252525;
+  margin: 20px;
+  padding: 20px;
+}
+/*# sourceMappingURL=styles.css.map */

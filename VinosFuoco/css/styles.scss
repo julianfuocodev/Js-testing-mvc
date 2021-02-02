@@ -1,0 +1,166 @@
+$blanco: #fff;
+$negro : #000;
+$azul: #0575E6;
+$gris: rgb(240, 240, 240);
+$verde: #00F260;
+$dark: #252525;
+$base : rgb(86, 83, 246);
+
+$IBM: 'IBM Plex Sans', sans-serif;
+$Poppins: 'Poppins', sans-serif;
+$Raleway: 'Raleway', sans-serif;
+$Caveat: 'Caveat', cursive;
+
+.categoria {
+    display: flex;
+    flex-direction: column;
+    background: rgba(86, 83, 246, 0.6);
+    font-family: $Caveat; 
+    align-items: center;
+    border: 1px solid $dark;
+    color: $blanco;
+    label{
+        font-size: 25px;
+    }
+}
+
+.barra{
+    height: 60px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    li{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        p{
+            font-family: $Caveat;
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+    
+    
+}
+
+
+
+
+#productos{
+    display: flex;
+    flex-wrap: wrap;
+    //flex-direction: row;
+    .vista{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid $gris 1px;
+        background-color: rgba(86, 83, 246, 0.3);
+        border-radius: 5px;
+        width: 250px;
+        height: 650px;
+        margin-bottom: 20px;;
+        margin-right: 20px;
+        h2{
+            font-size: 35px;
+            color: black;
+            font-family: $Caveat;
+        }
+        
+        p{
+            /*font-weight: bold;*/
+            color: black;
+            font-family: $Caveat;
+            display: inline-block;
+            line-height: 1.6;
+            text-align: center;
+            font-size: 25px;
+      }
+      select{
+          margin-bottom: 10px;
+      }
+      .containerColorTalla{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+      }
+      .containerColor{
+        @extend .containerColorTalla;
+      }
+      .containerTalla{
+        @extend .containerColorTalla;
+      }
+      .containerCntd{
+        @extend .containerColorTalla;
+      }
+    }
+}
+
+.responsiva{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.elementoCarrito{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+    p{
+        padding: 5px;
+    }
+}
+
+body{
+    background-image: url("../img/fondo.jpg");
+}
+
+.comprar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: $Caveat;
+        font-size: 50px;
+    }
+    .facturaDatos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        p{
+            font-size: 25px;
+        }
+        #factura{
+            display: flex;
+            flex-direction: column;
+            background: rgba(228, 230, 135, 0.6);
+            font-family: $Caveat; 
+            border: 1px solid $dark;
+            color: $negro;
+            margin: 20px;
+            padding: 20px;
+        }
+    }
+}
+
+
+.datosCliente{
+    display: flex;
+    flex-direction: column;
+    background: rgba(86, 83, 246, 0.6);
+    border: 1px solid $dark;
+    margin: 20px;
+    padding: 20px;
+}
